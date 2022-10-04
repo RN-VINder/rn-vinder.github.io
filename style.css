@@ -1,0 +1,35 @@
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+  padding: 4px 8px 4px 8px;
+}
+
+/* End Reduce vertical spacing */
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+  font-size: 0.7em;
+}
+
+div.dtsp-panesContainer {
+  font-size: 1em;
+}
+
+.truncate {
+  max-width:50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+table.dataTable.dtr-inline.collapsed > tbody > tr > td.details-control:first-child:before { display: none;}
+table.dataTable th, table.dataTable td { white-space: normal; }
+.child {table-layout:fixed} .child td {word-wrap:break-word; white-space: normal !important;}
